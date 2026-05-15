@@ -1,4 +1,15 @@
 {
+  "name": "ecommerce-dsw9",
+  "version": "1.0.0",
+  "description": "Sitio e-commerce DSW9",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev":   "node app.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "cookie-parser": "^1.4.7",
     "dotenv": "^17.4.2",
@@ -10,3 +21,4 @@
     "sequelize": "^6.37.8"
   }
 }
+
