@@ -1,4 +1,4 @@
-/ controllers/productController.js
+// controllers/productController.js
 const { Product } = require('../models');
 const productController = {
   getHomePage: async (req, res) => {
